@@ -27,7 +27,7 @@ const person = new Object();
 // 3. object create method:
 const atel = Object.create(null);
 const atel2 = Object.create(player);
-console.log(atel2.bat());
+// console.log(atel2.bat());
 
 // 4. class:
 class Person {
