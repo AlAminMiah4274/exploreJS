@@ -10,16 +10,15 @@ player.bat = function () {
 // player.bat();
 
 const student = {
-    name: 'pandey',
-    job: 'khay andey',
+    name: 'Panday',
+    job: 'Khay Anday',
     ball: function () {
-        console.log('throw the ball');
+        console.log('Throw the ball');
     },
     salary: 100000
 }
-
 // console.log(student);
-// student.ball();
+student.ball();
 
 // 2. object constructor:
 const person = new Object();
