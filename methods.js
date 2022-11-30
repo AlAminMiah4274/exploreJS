@@ -19,6 +19,6 @@ const output = student.exam();
 const reExam = student.improveExam('Algebra');
 // console.log(reExam);
 const remaining = student.treatDey(900, 100);
-console.log(remaining);
+// console.log(remaining);
 const dolaRemaining = student.treatDey(500, 50);
-console.log(dolaRemaining);
+// console.log(dolaRemaining);
