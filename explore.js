@@ -18,11 +18,11 @@ const student = {
     salary: 100000
 }
 // console.log(student);
-student.ball();
+// student.ball();
 
 // 2. object constructor:
 const person = new Object();
-// console.log(person);
+console.log(person);
 
 // 3. object create method:
 // const item = Object.create(null);
