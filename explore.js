@@ -22,12 +22,12 @@ const student = {
 
 // 2. object constructor:
 const person = new Object();
-console.log(person);
+// console.log(person);
 
 // 3. object create method:
-// const item = Object.create(null);
-const atel = Object.create(student);
-// console.log(atel.friend);
+const atel = Object.create(null);
+const atel2 = Object.create(player);
+console.log(atel2.bat());
 
 // 4. class:
 class Person {
