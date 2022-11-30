@@ -1,10 +1,11 @@
 // 1. creat object using object literal:
 const player = {};
-player.name = 'small Nirob';
-player.specialty = 'batsman';
+player.name = 'Lord Shanto';
+player.specialty = 'Batsman';
 player.bat = function () {
-    console.log('swing your bat');
+    console.log('Swing the ball');
 }
+
 // console.log(player);
 // player.bat();
 
@@ -47,4 +48,4 @@ function Car(model, price) {
     this.price = price;
 }
 const tesla = new Car('elon', 32);
-console.log(tesla);
+// console.log(tesla);
