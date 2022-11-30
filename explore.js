@@ -31,15 +31,16 @@ console.log(atel2.bat());
 
 // 4. class:
 class Person {
-    name = 'Abul';
-    address = 'shodor ghat';
-    constructor(age) {
-        this.age = age;
-    }
+    name = 'Al Amin Miah';
+    address = 'Uttara';
+    age = 22;
+    constructor(job) {
+        this.job = job;
+    };
+    institute = 'National University';
 }
-
-const person1 = new Person(15);
-// console.log(person1);
+const employee = new Person('student');
+// console.log(employee);
 
 // 5. function: 
 function Car(model, price) {
