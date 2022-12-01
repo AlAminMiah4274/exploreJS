@@ -1,0 +1,27 @@
+const kodomAli = {
+    name: 'Kodom Ali',
+    money: 5000,
+    study: 'Math',
+    subjects: ['Algebra', 'Calculas', 'Geomatry'],
+    exam: function () {
+        return `${this.name} is participating in an exam.`;
+    },
+    improveExam: function (subject) {
+        return `${this.name} is taking an improve exam on ${subject}`;
+    },
+    treatDey: function (amount, tips) {
+        this.money = this.money - amount - tips;
+        return this.money;
+    }
+};
+
+const badamAli = {
+    name: 'Kacha Badam',
+    money: 8000
+};
+
+const result2 = kodomAli.exam.call(badamAli);
+// console.log(result2);
+
+const badamMoney = kodomAli.treatDey.call(badamAli, 400, 40);
+console.log(badamMoney);
