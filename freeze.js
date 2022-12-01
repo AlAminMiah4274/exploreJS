@@ -10,3 +10,12 @@ const pair = Object.entries(bottle);
 
 // two dimensional array:
 const twoDimension = [['color', 'yellow'], ['price', 50], ['isCleaned', true], ['capacity', 1]];
+
+console.log(bottle);
+Object.seal(bottle);
+Object.freeze(bottle);
+
+delete bottle.isCleaned;
+bottle.price = 1000;
+bottle.height = '12cm';
+console.log(bottle);
