@@ -54,8 +54,8 @@ mine();
 const data = { name: 'Alice', age: 23 };
 const dataCopy = data;
 
-// Shalow Copy
+// shalow copy 
 const shalowCopy = { ...data };
 
-// Deep Copy
+// deep copy 
 const deepCopy = JSON.parse(JSON.stringify(data));
