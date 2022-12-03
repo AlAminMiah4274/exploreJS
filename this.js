@@ -49,3 +49,13 @@ function mine() {
     console.log(this);
 }
 mine();
+
+// Ways to clone object: 
+const data = { name: 'Alice', age: 23 };
+const dataCopy = data;
+
+// Shalow Copy
+const shalowCopy = { ...data };
+
+// Deep Copy
+const deepCopy = JSON.parse(JSON.stringify(data));
